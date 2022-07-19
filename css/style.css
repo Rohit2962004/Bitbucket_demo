@@ -1,35 +1,60 @@
 @media only screen and (max-width: 1000px)  {
 .cloud_server{
      flex-direction: column;
-     flex-direction:row-reverse !important;
+     margin-left:0px;
 }
-.main{
+.main, .navbar-item{
      flex-direction: column;
 }
- .main_2{
-     flex-direction: column;
+.main_2{
+     flex-direction: column !important;
 }
-.only_detail{
-	margin:0px;
+.only_detail, .nav_text,{
+	margin:0px !important;
 }
-.cloude_div{
- 	 text-align:center;  
+.first_detail, .second_detail{
+	padding:60px 10px !important;
+	text-align:left;
+}
+.logo_img{
+	margin-left:0px !important;
+}
+.nav_text{
+	margin-top:0px !important;
+	margin-bottom:20px !important;
+	padding:0px !important;
+}
+.nav_button{
+padding:0px !important;
+}
+.get_free{
+   margin:20px 0px 0px 0px !important;
+}
+.cloud_div{
+     justify-content: center;
 }
 .text_server{
-	 margin-top:0px !important;
-	 text-align:center;
+     justify-content: center;
+     text-align:center;
+	 margin:5px 0px 0px 0px !important;
 }
  .for_media {
     width:100%;
   }
 }
-
+.navbar-item{
+	display:flex;
+}
+.nav_button, .get_free, .log_in{
+	text-decoration:none !important;
+}
 .nav_button{
 	text-decoration:none;
 }
 .cloud_server{
 	display:flex;
     justify-content: center;
+    margin-top:50px;
 }
 .nav_bar{
 	margin:0px;
@@ -44,7 +69,7 @@
 	width:auto;
 }
 .nav_text{
-	margin:20px 0px 20px 20px;
+	margin:20px 0px 20px 0px;
 	font-size:20px;
 	color:blue;
 }
@@ -52,11 +77,9 @@
 	padding:15px;
 }
 .get_free{
-	color:white;
 	border: solid blue 1px;
 	border-radius:5%;
 	padding:5px 10px ;
-	margin:5px 0px 5px 20px;
 	font-size:20px;
 	color:blue;
 }
@@ -103,24 +126,31 @@
 .get_free:hover{
 	color:blue;
 }
+.cloud_div{
+	margin-top:50px;
+	margin-bottom:50px;
+}
 .cloud_img{
 	height:auto;
 	padding:0px;
 	width:250px;
-	margin-top:50px;
-	margin-bottom:50px;
 }
 .text_server{
 	font-size:20px;
-    margin-top:100px;
+    margin-top:70px;
     margin-left:25px;
+    margin-bottom:70px;
 }
 .arrow_img{
 	height:80px;
 	width:auto;
 }
-.main, .main_2{
+.main {
 	display:flex;
+}
+ .main_2{
+   display:flex;
+   flex-direction: row-reverse;	
 }
 .main_details{
   background: url(../img/blue_back.webp) repeat center fixed; 
