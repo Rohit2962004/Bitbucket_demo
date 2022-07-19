@@ -38,11 +38,20 @@ padding:0px !important;
     width:100%;
   }
 }
+.navbar-toggle{
+margin-top:15px !important;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top:5px;
+}
 .navbar-item{
 	display:flex;
 }
 .nav_button, .get_free, .log_in{
 	text-decoration:none !important;
+}
+.nav>li{
+	margin-bottom:10px;
 }
 .nav_button{
 	text-decoration:none;
@@ -59,7 +68,7 @@ padding:0px !important;
 	top:0px;
 }
 .logo_img{
-	margin:15px 0px 20px 15px;
+	margin:0px 0px 0px 15px;
 	padding-left:40px;
 	height:35px;
 	width:auto;
@@ -72,10 +81,30 @@ padding:0px !important;
 .nav_button{
 	padding:15px;
 }
+.navbar-nav>li>a{
+	padding:5px 10px;
+}
+.navbar-nav{
+	margin:0px;
+}
+.navbar-collapse{
+	margin-top:25px;
+	font-size:20px;
+}
+.navbar-brand{
+	padding-left:15px !important;
+}
+.icon-bar{
+	background-color: darkblue;
+	height:4px !important;
+
+}
+.nav>li>a{
+	display:inline !important;
+}
 .get_free{
 	border: solid blue 1px;
 	border-radius:5%;
-	padding:5px 10px ;
 	font-size:20px;
 	color:blue;
 }
@@ -84,7 +113,8 @@ padding:0px !important;
   background-size: cover;
 }
 .heading_text{
-	padding-top:50px;
+	padding-top:35px;
+	margin-top:0px;
 	color:black;
 	z-index:0;
 	font-size:40px;
@@ -172,7 +202,6 @@ padding:0px !important;
 h1{
 	text-align:center;
 	color:white;
-	max-width:100%;
 }
 .only_detail{
 	color:white;
