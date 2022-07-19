@@ -9,15 +9,16 @@
 .main_2{
      flex-direction: column !important;
 }
-.only_detail, .nav_text,{
+.only_detail, .nav_text{
 	margin:0px !important;
 }
 .first_detail, .second_detail{
 	padding:60px 10px !important;
 	text-align:left;
 }
-.logo_img{
+.logo_img, .first_img{
 	margin-left:0px !important;
+	padding-left:0px !important;
 }
 .nav_text{
 	margin-top:0px !important;
@@ -30,15 +31,10 @@ padding:0px !important;
 .get_free{
    margin:20px 0px 0px 0px !important;
 }
-.cloud_div{
-     justify-content: center;
-}
 .text_server{
-     justify-content: center;
-     text-align:center;
-	 margin:5px 0px 0px 0px !important;
+	 margin:15px 0px 0px 0px !important;
 }
- .for_media {
+.for_media {
     width:100%;
   }
 }
@@ -176,9 +172,7 @@ padding:0px !important;
 h1{
 	text-align:center;
 	color:white;
-	margin-top:20px;
-	width:100%;
-	z-index:0;
+	max-width:100%;
 }
 .only_detail{
 	color:white;
